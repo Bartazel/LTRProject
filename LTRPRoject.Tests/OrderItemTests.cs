@@ -13,7 +13,8 @@ namespace LTRProject.Tests
             var orderItem = new OrderItem
             {
                 NetPrice = 10,
-                Quantity = 3
+                Quantity = 3,
+                Tax = 0.17M
             };
 
             // Act
@@ -30,7 +31,8 @@ namespace LTRProject.Tests
             var orderItem = new OrderItem
             {
                 NetPrice = 10,
-                Quantity = 3
+                Quantity = 3,
+                Tax = 0.17M
             };
 
             // Act

@@ -48,8 +48,8 @@ namespace LTRProject.Tests
             {
                 OrderItems = new List<OrderItem>
                 {
-                    new OrderItem { NetPrice = 10, Quantity = 2 },
-                    new OrderItem { NetPrice = 5, Quantity = 3 }
+                    new OrderItem { NetPrice = 10, Quantity = 2, Tax = 0.17M },
+                    new OrderItem { NetPrice = 5, Quantity = 3, Tax = 0.17M }
                 }
             };
 
@@ -81,8 +81,8 @@ namespace LTRProject.Tests
             {
                 OrderItems = new List<OrderItem>
                 {
-                    new OrderItem { NetPrice = 10, Quantity = 2 },
-                    new OrderItem { NetPrice = 5, Quantity = 3 }
+                    new OrderItem { NetPrice = 10, Quantity = 2, Tax = 0.17M },
+                    new OrderItem { NetPrice = 5, Quantity = 3, Tax = 0.17M }
                 }
             };
 
